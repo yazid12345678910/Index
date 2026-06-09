@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html dir="ltr"> 
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="estilo_i_s.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="container">
+    <!-- Formulario de inicio de sesión -->
+    <form action="login.php" method="POST">
+      <div class="title">INICIO DE SESIÓN</div>
+
+      <div class="input-box underline">
+        <input type="email" name="correo" placeholder="INTRODUCE TU CORREO" required />
+        <div class="underline"></div>
+      </div>
+
+      <div class="input-box">
+        <input type="password" name="contraseña" placeholder="INTRODUCE TU CONTRASEÑA" required />
+        <div class="underline"></div>
+      </div>
+
+      <div class="input-box button">
+        <input type="submit" value="INICIAR SESIÓN" />
+      </div>
+    </form>
+
+    <!-- Botón para ir a registro -->
+    <div class="option">Si no tienes cuenta puedes crear una en registrarse</div>
+    <a href="registro.html">
+      <div class="input-box button">
+        <input type="button" value="REGISTRARSE" />
+      </div>
+    </a>
+  </div>
+</body>
+</html>
